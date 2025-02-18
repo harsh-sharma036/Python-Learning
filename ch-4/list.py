@@ -1,7 +1,7 @@
-list1 = ["apple", 1, True, None, 6.78, "mango"]
+list1 = ["apple", [1, 2, 3], True, None, 6.78, "mango"]
 
 # print(list1)
-# print(list1[1])
+# print(list1[1][1])
 # print(list1[0][1]) #prints 'p' of apple
 # print(list1[0: 4])
 

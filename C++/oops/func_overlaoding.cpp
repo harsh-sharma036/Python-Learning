@@ -7,6 +7,11 @@ class calculator{
             cout<<"Int_2"<<endl;
             return a+b;
         }
+        // as function can't be overloaded by return type
+        // float add(int a, int b){     // this will give error
+        //     cout<<"Int_Float"<<endl;
+        //     return a+b;
+        // }
 
         int add(int a, int b, int c){
             cout<<"Int_3"<<endl;

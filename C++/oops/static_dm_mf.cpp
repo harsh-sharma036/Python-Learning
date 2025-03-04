@@ -23,6 +23,7 @@ int main(){
     person p2;
     // person::getcount();
     person p3;
+    p3.getcount();
     cout<<sizeof(p3)<<endl;
     cout<<sizeof(person)<<endl;
     // person::getcount();

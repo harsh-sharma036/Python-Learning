@@ -24,9 +24,6 @@
 // Since no override was used, the compiler does not give an error—instead, it treats startengine() as a new function.
 
 // Fix Using override
-// cpp
-// Copy
-// Edit
 // class Tesla : public Car {
 // public:
 //     void startengine() override {  // Error: No function in base class with this name

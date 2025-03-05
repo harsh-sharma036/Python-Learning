@@ -34,7 +34,7 @@ int main(){
     cout<<c.add(2,3)<<endl;
     cout<<c.add(2,3,4)<<endl;
     cout<<c.add(2.5,3.5)<<endl;
-    cout<<c.add(2.8f,3.6f)<<endl;
+    cout<<c.add(2.8f,3.6f)<<endl; // f is used to specify float
 
     return 0;
 }

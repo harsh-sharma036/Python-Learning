@@ -25,5 +25,5 @@ class c : public A{
 
 int main(){
     c obj1;
-    obj1.show();
+    obj1.show(); // Class C
 }

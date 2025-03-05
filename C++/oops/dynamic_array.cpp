@@ -32,7 +32,7 @@ int main(){
         cout<<"Enter id and name of employee "<<i+1<<endl;
         cin>>id;
         getline(cin, name);
-        e[i].setdata(id, name);
+        e[i].setdata(id, name); // this will set the data of the employee
     }
     cout<<"The details of the employees are: "<<endl;
     for (int i = 0; i < 3; i++){

@@ -8,11 +8,11 @@ public:
         a = new int(x);  // Dynamically allocate memory
     }
 
-    abc(abc &obj){
-        a = obj.a;  // Shallow Copy! Both objects share the same memory
-    }
+    // abc(abc &obj){
+    //     a = obj.a;  // Shallow Copy! Both objects share the same memory
+    // }
 
-    abc(abc &obj){
+    abc(abc &obj){ // deep copy
         a = new int(*obj.a);  // Allocate new memory and copy value
     }
     

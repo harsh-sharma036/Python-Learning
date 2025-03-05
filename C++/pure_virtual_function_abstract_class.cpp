@@ -20,7 +20,7 @@ class bmw: public car{
 int main(){
     // car c;  // Error: cannot declare variable 'c' to be of abstract type 'car'
     bmw b;
-    b.steering();
+    b.steering(); // No error
     b.brakes();
     return 0;
 }

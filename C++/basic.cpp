@@ -12,4 +12,5 @@ int main(){
     double e = 34;
     cout<<typeid("A").name();
     return 0;
+    // cout<<typeid(e).name();
 }

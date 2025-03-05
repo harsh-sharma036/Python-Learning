@@ -26,6 +26,8 @@ int main() {
     cout << "Size of float: " << sizeof(float) << " bytes" << endl;
     cout << "Size of double: " << sizeof(double) << " bytes" << endl;
     cout << "Size of long double: " << sizeof(long double) << " bytes" << endl;
+    // cout << "Size of void: " << sizeof(void) << " bytes" << endl;  // Error beacuse void is an incomplete type and does not have a size
+    cout << "Size of nullptr_t: " << sizeof(nullptr_t) << " bytes" << endl;
     
     return 0;
 }

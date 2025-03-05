@@ -16,5 +16,6 @@ print(type(e), "or yeh last wla hai bhai None ka")
 f = str(b)
 print(f, type(f))
 
+
 # g = int(c)
-# print(g)
+# print(g) # this will give error because we can't convert string to int directly

@@ -14,7 +14,7 @@ int main() {
     cout<<c.sum(1,2)<<endl;
     cout<<c.sum(1)<<endl;
     cout<<c.sum()<<endl;
-    // cout<<c.sum(1,2,3,4)<<endl;  -> throws an error
+    // cout<<c.sum(1,2,3,4)<<endl;  -> throws an error // argument list does not match
 
     return 0;
 }

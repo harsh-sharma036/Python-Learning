@@ -18,7 +18,7 @@ public:
 };
 
 int main() {
-    Test t1(10);
+    Test t1(10); // t1.ptr points to memory location with value 10
     Test t2 = t1;  // Deep copy constructor is called
 
     delete t1.ptr; // Now `t2.ptr` is not affected

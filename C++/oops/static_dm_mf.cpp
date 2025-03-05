@@ -25,7 +25,7 @@ int main(){
     person p3;
     p3.getcount();
     cout<<sizeof(p3)<<endl;
-    cout<<sizeof(person)<<endl;
+    cout<<sizeof(person)<<endl; // 4 bytes
     // person::getcount();
     return 0;
 }

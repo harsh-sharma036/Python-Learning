@@ -15,6 +15,6 @@ int main(){
     *pt = 20;
     cout<<a<<endl;
     cout<<*pt<<endl;    
-    cout<<*ptr<<endl;
+    cout<<*ptr<<endl; // 20
     return 0;
 }

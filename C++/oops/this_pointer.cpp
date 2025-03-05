@@ -20,8 +20,15 @@ class Example {
     
     int main() {
         Example obj;
+        cout<<  obj << endl;
         obj.show();
         cout << "Returned pointer: " << obj.getPointer() << endl;  // Same address
+        // Example* ptr = obj.getPointer();
+        // cout << "Pointer address: " << ptr << endl;
+        Example obj2;
+        cout << obj2 << endl;
+        obj2.show();
+        cout << "Returned pointer: " << obj2.getPointer() << endl;  // Same address
         return 0;
     }
     
@@ -29,11 +36,9 @@ class Example {
     // 1️⃣ How cout Works
     // The cout object in C++ is an instance of std::ostream. When you write:
     
-    // cpp
-    // Copy
-    // Edit
     // cout << some_variable;
-    // The compiler looks for an appropriate operator<< function that can handle the type of some_variable. Some built-in types (like int, double, char*, etc.) already have predefined operator<< functions in the standard library. For example:
+    // The compiler looks for an appropriate operator<< function that can handle the type of some_variable.
+    // Some built-in types (like int, double, char*, etc.) already have predefined operator<< functions in the standard library. For example:
     
     // ✅ cout << 10; works because operator<<(int) is defined.
     // ✅ cout << 3.14; works because operator<<(double) is defined.

@@ -6,7 +6,7 @@ int main(){
     double b = 20.5;
     int c = static_cast<int>(b);
     cout<<b<<" "<<typeid(b).name()<<endl;
-    cout<<c<<" "<<typeid(c).name()<<endl;
+    cout<<c<<" "<<typeid(c).name()<<endl; // 20 i
     // cp
     return 0;
 }

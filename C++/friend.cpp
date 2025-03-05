@@ -40,5 +40,6 @@ int main() {
     h.show_2(s);
     
     // show(h);
+    // okay agya smjh revision-1 5th march
     return 0;
 }

@@ -3,9 +3,7 @@
 // If there is a typo or a mismatch in the function signature, the compiler will generate an error.
 
 // Example Without override (Potential Bug)
-// cpp
-// Copy
-// Edit
+
 // class Car {
 // public:
 //     virtual void startEngine() {  // Virtual function
@@ -55,14 +53,14 @@ public:
 
 class Samsung : public TV {
 public:
-    void powerOn() override {
+    void powerOn() override {  // Overrides the base class function
         cout << "Samsung TV Turning On" << endl;
     }
 };
 
 class LG : public TV {
 public:
-    void powerOn() override {
+    void powerOn() override {  // Overrides the base class function
         cout << "LG TV Turning On" << endl;
     }
 };
@@ -72,11 +70,17 @@ int main() {
     Samsung s;
     LG l;
 
+
+
     remote = &s;
     remote->powerOn();  // Calls Samsung's function
 
     remote = &l;
     remote->powerOn();  // Calls LG's function
+    
+    // Samsung *s1;
+    // s1 = &s;
+    // s1->powerOn();
 
     return 0;
 }

@@ -26,8 +26,10 @@ int main(){
     // cout<<"Hello World"<<endl;
    
     C c;
-    c.A::show();
-    c.B::show();
+    // agar Class C mai show() function nhi isliye scope resolution operator use krke call krna padega to remove ambiguity
+    c.A::show(); // this will call the show function of class A
+    c.B::show(); // if we don't use scope resolution then it will give error as it is ambigious
+    c.show(); // this will call the show function of class C
 
     
     return 0;

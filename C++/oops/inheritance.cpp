@@ -25,6 +25,7 @@ int main(){
     android a;
     // a.version = 2;
     a.show();
+    a.show();
     samsung s;
     
     s.show();

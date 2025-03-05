@@ -46,6 +46,7 @@ int main(){
 
     weight w1;
     w1 = ++w;
+    w1++;
     w1.show();
 
     return 0;

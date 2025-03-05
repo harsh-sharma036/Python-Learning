@@ -24,6 +24,7 @@ int main(){
         cout << *p << endl;  // Won't execute since p is nullptr
     } else {
         cout << "Pointer is null." << endl;  // Safe handling
+        // cout << *p << endl;  // Undefined behavior
     }
     
 

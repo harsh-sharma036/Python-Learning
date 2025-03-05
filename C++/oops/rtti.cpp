@@ -24,8 +24,8 @@ int main(){
     const type_info &ti = typeid(*ptr);
     cout<<ti.name()<<endl;
     // b->show();
-    cout<<typeid(b).name()<<endl;    // iske output mai P  base ayega & 5 refers to the length of the string & P refers to the pointer
-    cout<<typeid(*b).name()<<endl;  // iske output mai 8derived ayega & 8 refers to the length of the string
+    cout<<typeid(b).name()<<endl;    // iske output mai P  base ayega & 4 refers to the length of the string & P refers to the pointer
+    cout<<typeid(*b).name()<<endl;  // iske output mai 8derived ayega & 7 refers to the length of the string
     return 0; 
 
 }

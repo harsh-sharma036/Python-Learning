@@ -57,10 +57,14 @@ class car{
 
 int main(){
     // cout<<sizeof(car)<<endl;
-    car alto(120);
-    alto.setValues("Alto",100, 5, 4, 4);
-    alto.display();
-    alto.print();
+    // car alto(120);
+    // alto.setValues("Alto",100, 5, 4, 4);
+    // alto.display();
+    // alto.print();
+    cout<<typeid(car).name()<<endl;
+    string h;
+    cout<<sizeof(h)<<endl;
+    cout<<sizeof(car)<<endl;
     return 0;
 }
 

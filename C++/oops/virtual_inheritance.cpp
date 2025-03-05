@@ -46,7 +46,7 @@ class D : public B, public C{
 
 int main(){
     // D d;   // Constructor A, Constructor B, Constructor A, Constructor C, Constructor D
-    // d.show();
+    // d.show(); // Class D
     D d; // Constructor A, Constructor B, Constructor C, Constructor D
     return 0;
 }

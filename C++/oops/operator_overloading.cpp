@@ -27,10 +27,12 @@ class Complex{
 int main(){
     Complex c1(10, 5), c2(2, 4);
     Complex c3(1, 7);
-
+    Complex c5;
     Complex c4;
     c4 = c1 + c2 + c3;
+    c5 = c1 + c2;
     c4.print();
+    c5.print();
 
     return 0;
 }

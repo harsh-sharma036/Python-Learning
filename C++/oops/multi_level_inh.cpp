@@ -24,8 +24,10 @@ class C: public B{
 
 int main(){
     // cout<<"Hello World"<<endl;
-   
-    C c;
+    C c,d;
+    // B::d.show(); // wrong syntax for scope resolution
     c.show();
+    c.B::show();
+    c.A::show();
     return 0;
 }

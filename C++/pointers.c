@@ -9,7 +9,7 @@ int main(){
     // printf("%p\n", &n);
     // printf("%d\n", *ptr);
     // printf("%p\n", ptr);
-
+//`    printf("%p\n", &ptr);
     
     
     int arr[5] = {11, 12, 13, 14, 15};

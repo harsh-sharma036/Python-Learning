@@ -12,4 +12,4 @@ if(a > b):
 else:
     print("False")
 
-print(a**(-1))
+print(a**(-1)) # this means a raised to the power -1

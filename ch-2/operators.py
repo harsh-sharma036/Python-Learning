@@ -42,3 +42,4 @@ print("and of false, false = ", False and False)
 
 # Use of 'not' operator
 print(not(True))
+

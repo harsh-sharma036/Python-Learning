@@ -14,7 +14,7 @@ int main(){
         cin>>b;
         if(b==0){
             // throw runtime_error("Division by zero");
-            throw -1;
+            throw 1.11;
         }
         res = a/b;
     }
@@ -25,6 +25,10 @@ int main(){
     catch(int x)
     {
         cout<<"Division by zero"<<endl;
+    }
+    catch(...)
+    {
+        cout<<"Some error occured"<<endl;
     }
 
     cout<<"Result: "<<res<<endl;

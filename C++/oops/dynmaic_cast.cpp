@@ -27,6 +27,10 @@ int main(){
     base *b = new d1();
     d1 *d = dynamic_cast<d1*>(b);
     d2 *ddd = dynamic_cast<d2*>(b);
+
+    // In your code, the dynamic_cast operation for d2 is unsuccessful because the object b
+    // is actually of type d1, not d2. The dynamic_cast operator checks the actual type of the
+    // object at runtime and only succeeds if the cast is valid.
     if(d){
         cout<<"Conversion successful"<<endl;
     }
@@ -38,7 +42,7 @@ int main(){
         cout<<"Conversion successful"<<endl;
     }
     else{
-        cout<<"Conversion unsuccessful"<<endl;
+        cout<<"Conversion unsuccessful"<<endl; //why this is printed
     }
     
     return 0;

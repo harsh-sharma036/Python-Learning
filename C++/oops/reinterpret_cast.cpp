@@ -12,8 +12,8 @@ int main(){
     cout<<*ch<<endl;
 
     *ch = 'b';
-    cout<<a<<endl;
-    cout<<*ch<<endl;
+    cout<<a<<endl;   // 98
+    cout<<*ch<<endl; // b
 
 
     return 0;

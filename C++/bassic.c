@@ -8,7 +8,7 @@ int main(){
    
     struct student r;
     r.roll = 12;
-    printf("%d", r.roll);
+    printf("%d", r.roll); // 12
 
     return 0;
 }

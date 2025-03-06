@@ -6,9 +6,9 @@
 #     print(i)
 
 
-# s = "Harshhhh Shramaaaaaaa"
-# for i in s:
-#     print(i + i)
+s = "Harshhhh Shramaaaaaaa"
+for i in s:
+    print(i + i)
 
 
 # for loop with else, else will be executed after the last loop iteration

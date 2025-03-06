@@ -18,7 +18,7 @@ print(dicts.keys())
 print(dicts.values())
 
 # if we create 2 lists in the dictionary the first one will get overwrite
-dicts.update({"cutie" : 100})
+dicts.update({"cutie" : 100, "harshhh" : 99})
 print(dicts)
 print(type(dicts["shravani"]))
 print(type(dicts[tuple]))

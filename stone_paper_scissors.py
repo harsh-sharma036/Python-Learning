@@ -46,7 +46,7 @@ your_dict = {
 #         print("Technical Error")
 
 
-print("STONE - PAPER - SCISSORS GAME\nEnter your choice:\n1 = Stone\n2 = Paper\n3 = Scissors")
+print("STONE - PAPER - SCISSORS GAME\nEnter your choice:\n-1 for Stone\n0 for Paper\n1 for Scissors")
 you = int(input("your choice: "))
 
 reversed_dic = {
